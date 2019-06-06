@@ -111,7 +111,7 @@ height: auto;
     }
 
 }
-@media(max-width:380px){
+@media(max-width:400px){
   .w-cont {
       font-size: 12px!important;
       padding:0;
