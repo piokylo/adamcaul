@@ -331,10 +331,19 @@ section.slider {
 
 @media(max-height:600px) {
   .bg-type{
-    display: none;
+     margin: 90px 0px 0px;
   }
+  .bg-type span {
+    
+    font-size: 250px;
+    
+}
   .rel{
     margin-top: 140px;
+
+  }
+  .about-slide h1{
+font-size: 22px;
 
   }
 
