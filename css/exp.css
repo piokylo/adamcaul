@@ -109,6 +109,9 @@ height: auto;
       top: 20px;
       left: 20px;
     }
+    .backtomain p {
+      display: none;
+    } 
 
 }
 @media(max-width:400px){
