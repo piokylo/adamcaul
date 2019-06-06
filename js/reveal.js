@@ -5603,11 +5603,11 @@
 			slideNumberCSS : 'position: fixed; display: block; right: 90px; top: auto; left: auto; width: 50px; bottom: 30px; z-index: 31; font-family: Helvetica, sans-serif; font-size:  12px; line-height: 1; padding: 5px; text-align: center; border-radius: 10px; background-color: rgba(128,128,128,.5)',
 			controls: [
 				{ icon: '<i class="material-icons left-arrow">arrow_back</i>',
-				  css: 'position: fixed; left: 30px; bottom: 50%; z-index: 30; font-size: 24px;',
+				  css: 'position: fixed; left: 10px; bottom: 50%; z-index: 30; font-size: 24px;',
 				  action: 'Reveal.prev(); return false;'
 				},
 				{ icon: '<i class="material-icons right-arrow">arrow_forward</i>',
-				  css: 'position: fixed; right: 30px; bottom: 50%; z-index: 30; font-size: 24px;',
+				  css: 'position: fixed; right: 10px; bottom: 50%; z-index: 30; font-size: 24px;',
 				  action: 'Reveal.next(); return false;'
 				}
 			]

@@ -5,9 +5,10 @@
   max-height: 70% !important;
 }
 
+
 .header-desktop {
   position: absolute;
-  top: 0;
+  top: -20px;
   left: 0;
   width: 100%;
   z-index: 10;
@@ -73,7 +74,7 @@ nav {
   font-size: 500px;
   font-family: 'Syncopate', sans-serif;
   font-weight: 700;
-  margin: auto;
+  margin: -5px;
 }
 
 section.container {
@@ -231,13 +232,13 @@ section.slider {
 }
 
 .write-up h1 {
-  font-size: 0.8em !important;
+  font-size: 16px!important;
   font-family: 'Syncopate', sans-serif !important;
   font-weight: 700 !important;
 }
 
 .write-up p {
-  font-size: 0.5em !important;
+  font-size: 16px !important;
   font-family: 'Roboto', sans-serif !important;
   font-weight: 300 !important;
   text-transform: inherit !important;
@@ -252,6 +253,11 @@ section.slider {
 @media(max-width: 730px) {
   nav {
     flex-direction: column-reverse;
+  }
+  .header-desktop {
+    
+    top: 0px;
+   
   }
 
   .write-up {
@@ -290,9 +296,15 @@ section.slider {
     padding: 0;
   }
 
+  .backtomain img {
+    width: 50px !important;
+    height: 50px !important;
+
+  }
+
   .nav-item {
     margin-top: 20px;
-    margin-right: 32px;
+    margin-right: 20px;
   }
 
   nav {
@@ -314,7 +326,7 @@ section.slider {
   }
 
   .about-slide h1 {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
 
@@ -366,11 +378,11 @@ section.slider {
 
 }
 
-@media(max-width:380px) {
+@media(max-width:500px) {
   .write-up {
-    font-size: 26px !important;
+    
     width: 224px;
-    margin-left: 3px !important
+    margin-left: 7px !important
   }
 
 }
