@@ -5030,7 +5030,7 @@
 	function onDocumentMouseScroll( event ) {
 	console.log(event);
 
-		if( Date.now() - lastMouseWheelStep > 600 ) {
+		if( Date.now() - lastMouseWheelStep > 1000 ) {
 
 			lastMouseWheelStep = Date.now();
 
