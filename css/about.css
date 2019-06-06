@@ -127,7 +127,7 @@ height: 100px;
  
 
 }
-@media(max-width:360px){
+@media(max-width:400px){
   .w-cont {
       font-size: 12px!important;
       padding:0;
