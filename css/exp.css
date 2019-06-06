@@ -1,7 +1,7 @@
 body {
 color:#fff;
 background-color: #000;
-padding: 20px !important;
+
 
 }
 
@@ -65,6 +65,10 @@ color: #fff;
 
 
 @media(max-width:900px){
+  body {
+    padding: 0;
+
+  }
   .cont{
     display: block;
   }
@@ -76,6 +80,7 @@ height: auto;
   }
   .w-cont{
         font-size: 16px;
+        max-width: 90%;
 
   }
   img{
@@ -109,6 +114,13 @@ height: auto;
       top: 20px;
       left: 20px;
     }
+    .backtomain p {
+      display: none;
+    } 
+    .backtomain img {
+      width: 75px;
+      height: 75px;
+  }
 
 }
 @media(max-width:400px){
@@ -134,7 +146,8 @@ height: auto;
 @media(max-height:900px){
 
   .w-cont{
-        font-size: 16px;
+        font-size: 14px;
+        padding: 0;
 
   }
 }
