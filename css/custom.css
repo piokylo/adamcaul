@@ -330,6 +330,14 @@ section.slider {
 }
 
 @media(max-height:800px) {
+  nav {
+
+    margin: 15px;
+  }
+  section.slider{
+    padding: 180px 15px 100px 15px;
+
+  }
   .bg-type{
      margin: 90px 0px 0px;
   }
