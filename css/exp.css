@@ -134,12 +134,8 @@ img {
   }
 
 }
-<<<<<<< HEAD
-@media(max-width:420px){
-=======
 
 @media(max-width:420px) {
->>>>>>> development
   .w-cont {
     font-size: 14px !important;
     padding: 0;
@@ -150,13 +146,8 @@ img {
   }
 
   .backtomain img {
-<<<<<<< HEAD
-      width: 50px!important;
-      height: 50px!important;
-=======
     width: 50px !important;
     height: 50px !important;
->>>>>>> development
 
   }
 

@@ -59,19 +59,11 @@ body {
 
 .i-cont {
 
-<<<<<<< HEAD
-  
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-=======
 
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> development
 }
 
 .w-cont {
@@ -138,12 +130,7 @@ align-items: center;
 
 
 }
-<<<<<<< HEAD
 @media(max-width:420px){
-=======
-
-@media(max-width:420px) {
->>>>>>> development
   .w-cont {
     font-size: 14px !important;
     padding: 0;
@@ -154,13 +141,8 @@ align-items: center;
   }
 
   .backtomain img {
-<<<<<<< HEAD
       width: 50px!important;
       height: 50px!important;
-=======
-    width: 50px !important;
-    height: 50px !important;
->>>>>>> development
   }
 
   .backtomain {
