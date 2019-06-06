@@ -39,7 +39,7 @@ padding: 0 !important;
 }
 
 .right {
-  width: 50%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 height: 100vh;
@@ -68,7 +68,7 @@ align-items: center;
 
 .w-cont {
   
-      max-width: 500px;
+      max-width: 560px;
       font-size: 21px;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
@@ -79,7 +79,7 @@ color: #fff;
 .backtomain {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 10px;
   text-decoration: none;
 
 }
