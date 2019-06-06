@@ -40,6 +40,7 @@ padding: 0 !important;
 
 .right {
   width: 50%;
+  padding-left: 10px;
   padding-right: 10px;
 height: 100vh;
 background-color: #000;
