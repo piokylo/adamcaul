@@ -1,8 +1,8 @@
 .reveal img,
 .reveal video,
 .reveal iframe {
-  max-width: 70% !important;
-  max-height: 70% !important;
+  max-width: 85% !important;
+  max-height: 85% !important;
 }
 
 
