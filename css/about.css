@@ -60,10 +60,16 @@ body {
 .i-cont {
 
 
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.i-cont img {
+  width: 250px;
+  padding: 20px;
+  height: auto;
+
 }
 
 .w-cont {
