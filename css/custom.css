@@ -263,7 +263,9 @@ section.slider {
 
 .write-up {
   text-align: center;
-  width: 500px;
+  
+  max-width: 400px;
+
 }
 
 .write-up h1,
