@@ -3,6 +3,7 @@ var bg = document.querySelector('section.bg-type');
 
 
 
+
   let lastTranslateX = 0;
 
 
@@ -95,3 +96,5 @@ function openNav() {
 function closeNav() {
     document.getElementById("galley").style.width = "0%";
 };
+
+
