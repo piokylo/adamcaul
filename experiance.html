@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/exp.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto|Syncopate:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
-
+  
 
   <link rel="shortcut icon" type="image/png" href="assets/Fav-Icon-3.jpg" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,6 +29,24 @@
       z-index: 1;
       ;
 
+    }
+    .pad{
+      padding: 20px;
+
+    }
+    .container {
+      border-top: solid #fff 1px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    }
+    .container img {
+      width: 150px;
+      height: 150px;
     }
 
     .backtomain a {
@@ -51,6 +69,15 @@
       padding-left: 10px;
       margin: 0;
       text-transform: uppercase;
+
+    }
+    .box {
+    margin: 0 16px;
+}
+    .box p{
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 
     }
   </style>
@@ -294,15 +321,71 @@
         </div>
       </div>
     </div>
+
+    <div class="section scroll pad">
+      <div class="container">
+        <div class="box">
+      <img src="assets/other/a.png">
+      <p>Bronze Leaf<br>Letting Agent</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/b.png">
+      <p>Clement & Pekoe<br>Cafe</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/c.png">
+      <p>Charlotte Quey<br>Restaurant</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/d.png">
+      <p>Drougheda United<br>Football Club</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/e.png">
+      <p>F45 Gym<br>Franchise</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/f.png">
+      <p>Fleishmanhillard<br></p>
+    </div>
+    <div class="box">
+      <img src="assets/other/g.png">
+      <p>Nitro PDF<br>Company</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/h.png">
+      <p>Pepsi Cola<br></p>
+    </div>
+    <div class="box">
+      <img src="assets/other/i.png">
+      <p>Starbucks<br></p>
+    </div>
+    <div class="box">
+      <img src="assets/other/j.png">
+      <p>Uncle Tom's<br>Cabin Pub</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/k.png">
+      <p>Bronze Leaf<br>Letting Agent</p>
+    </div>
+    <div class="box">
+      <img src="assets/other/l.png">
+      <p>Bronze Leaf<br>Letting Agent</p>
+    </div>
+    </div>
+
+    
+    </div>
+  
+  
   </div>
 
 
 
 
 
-
   <script src="js/fullpage.js"></script>
-
+  <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
 
 
 
@@ -311,6 +394,7 @@
   <script>
     new fullpage('#fullpage', {
       sectionsColor: ['black'],
+      scrollOverflow: ".scroll"
     });
   </script>
 
