@@ -175,6 +175,7 @@ div .block {
   position: relative;
   width: 100%;
 }
+
 .image {
   display: block;
   width: 100%;
@@ -263,7 +264,7 @@ section.slider {
 
 .write-up {
   text-align: center;
-  
+
   max-width: 400px;
 
 }
@@ -274,7 +275,7 @@ section.slider {
 }
 
 .write-up h1 {
-  font-size: 16px!important;
+  font-size: 16px !important;
   font-family: 'Syncopate', sans-serif !important;
   font-weight: 700 !important;
 }
@@ -296,10 +297,11 @@ section.slider {
   nav {
     flex-direction: column-reverse;
   }
+
   .header-desktop {
-    
+
     top: 0px;
-   
+
   }
 
   .write-up {
@@ -422,7 +424,7 @@ section.slider {
 
 @media(max-width:500px) {
   .write-up {
-    
+
     width: 224px;
     margin-left: 7px !important
   }
