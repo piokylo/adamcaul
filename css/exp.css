@@ -141,6 +141,7 @@ img {
   .w-cont {
     font-size: 14px !important;
     padding: 0;
+    max-width: 90%;
   }
 
   .backtomain p {
