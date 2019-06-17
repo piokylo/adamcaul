@@ -60,15 +60,21 @@ body {
 .i-cont {
 
 
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.i-cont img {
+  width: 250px;
+  padding: 20px;
+  height: auto;
+
+}
 
 .w-cont {
 
-  max-width: 560px;
+  max-width: 400px;
   font-size: 21px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
