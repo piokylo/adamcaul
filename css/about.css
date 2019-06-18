@@ -78,6 +78,7 @@ body {
 .w-cont {
 
   max-width: 400px;
+  margin-top: 105px;
   font-size: 21px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -87,7 +88,7 @@ body {
 
 .backtomain {
   position: absolute;
-  top: 10px;
+
   left: 10px;
   text-decoration: none;
 

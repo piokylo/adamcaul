@@ -23,8 +23,8 @@
     .backtomain {
       display: flex;
       position: absolute;
-      top: 30px;
-      left: 30px;
+      
+      left: 10px;
       transition: transform 1200ms ease;
       z-index: 1;
       ;
@@ -84,6 +84,11 @@
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
 
+    }
+    @media(max-width: 410px){
+    .small{
+      max-width: 110px;
+    }
     }
   </style>
 
@@ -328,7 +333,7 @@
     </div>
 
     <div class="section scroll pad">
-      <div class="container">
+      <div class="container small">
         <div class="box">
           <img src="assets/other/a.png">
           <p>Bronze Leaf<br>Letting Agent</p>
