@@ -98,3 +98,8 @@ function closeNav() {
 };
 
 
+window.addEventListener('load', (event) => {
+  if (document.referrer.indexOf('work-8.html') > -1) {
+    document.querySelector(".work").click()
+}
+});
