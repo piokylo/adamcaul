@@ -1,7 +1,7 @@
 
-if(document.referrer.indexOf("work-8.html") != -1)
+/*if(document.referrer.indexOf("work-8.html") != -1)
 {document.querySelector('.work').click()}
-
+*/
 var slide = document.querySelectorAll('div.about-slide h1');
 var bg = document.querySelector('section.bg-type');
 
