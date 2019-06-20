@@ -149,6 +149,9 @@ body {
     font-size: 14px;
 
   }
+  .backtomain p {
+    display: none;
+  }
 
 
 }
