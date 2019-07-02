@@ -78,7 +78,8 @@ body {
 .w-cont {
 
   max-width: 400px;
-  margin-top: 105px;
+  
+  margin-top: -75px;
   font-size: 21px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;

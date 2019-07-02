@@ -8,7 +8,9 @@ var bg = document.querySelector('section.bg-type');
 
 
 
+
   let lastTranslateX = 0;
+
 
 
 
