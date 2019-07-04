@@ -85,6 +85,8 @@ function showButton(){
 
 document.querySelector(".header-desktop nav .backtomain").style.transform = "translateX(0)";
 document.querySelector(".slider").style.transform = "translateX(0)";
+document.querySelector(".home a").style.transform = "translateX(-100vh)";
+
 
 
 }
@@ -93,6 +95,7 @@ function hideButton(){
 document.querySelector(".header-desktop nav .backtomain").style.transform = "translateX(-100vh)";
 document.querySelector(".slider").style.transform = "translateX(-100vh)";
 
+document.querySelector(".home a").style.transform = "translateX(0)";
 }
 
 function openNav() {
