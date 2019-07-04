@@ -461,5 +461,9 @@ section.slider {
     width: 224px;
     margin-left: 7px !important
   }
+  .home a {
+    left: 43%;
+    top: 35px;
+  }
 
 }
