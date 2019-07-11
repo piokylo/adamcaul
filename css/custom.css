@@ -82,6 +82,7 @@ nav {
   position: absolute;
   margin-top: 110px;
   transition: transform 1200ms ease;
+  white-space: nowrap;
 }
 
 .bg-type span {
@@ -90,7 +91,7 @@ nav {
   font-size: 500px;
   font-family: 'Syncopate', sans-serif;
   font-weight: 700;
-  margin: -5px;
+  margin: 5px;
 }
 
 section.container {
@@ -395,6 +396,7 @@ section.slider {
 
   .bg-type span {
     font-size: 419px !important;
+   
   }
 
   .rel {

@@ -15,10 +15,11 @@ var bg = document.querySelector('section.bg-type');
 
 
 function makeBG(){
-const title = 'Designer';
+const title = 'ACTION CURES FEAR';
 const makeMore = new Array(50).fill(title).join('&nbsp;');
 const insert =  document.querySelector('.bg-type span');
 insert.innerHTML = makeMore;
+
 
 }
 makeBG();
