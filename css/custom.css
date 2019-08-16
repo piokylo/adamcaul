@@ -468,4 +468,17 @@ section.slider {
     top: 35px;
   }
 
+
+}
+@media(max-width:400px) {
+
+  .write-up p {
+    font-size: 12px !important;
+  }
+  h1.heading {
+    font-size: 12px!important;
+}
+.bg-type{
+  left: 0;
+}
 }
