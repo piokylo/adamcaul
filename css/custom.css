@@ -470,7 +470,8 @@ section.slider {
 
 
 }
-@media(max-width:400px) {
+
+@media(max-width:500px) {
 
   .write-up p {
     font-size: 12px !important;
