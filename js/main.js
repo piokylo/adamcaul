@@ -20,7 +20,6 @@ const makeMore = new Array(50).fill(title).join('&nbsp;');
 const insert =  document.querySelector('.bg-type span');
 insert.innerHTML = makeMore;
 
-
 }
 makeBG();
 
